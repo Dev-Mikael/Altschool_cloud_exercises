@@ -1,0 +1,12 @@
+user.name=Modu Michael
+user.email=modumichael138@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=git@github.com:Dev-Mikael/Altschool_cloud_exercises.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+branch.master.remote=origin
+branch.master.merge=refs/heads/master

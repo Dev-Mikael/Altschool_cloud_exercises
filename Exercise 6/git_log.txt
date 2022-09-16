@@ -1,0 +1,29 @@
+commit 99351b95d64316b6463450b33f873a4c4de27757
+Author: Modu Michael <modumichael138@gmail.com>
+Date:   Sun Sep 11 00:50:15 2022 +0100
+
+    exercises
+
+commit 52c3edf97c91a1da35b32523b7c05f72489b3b26
+Author: Modu Michael <modumichael138@gmail.com>
+Date:   Mon Sep 5 23:31:42 2022 +0100
+
+    ifconfig output
+
+commit fa646df8734554660390ec3f22555be4ba931079
+Author: Modu Michael <68521238+Dev-Mikael@users.noreply.github.com>
+Date:   Mon Sep 5 23:26:22 2022 +0100
+
+    Delete Altschool_cloud_exercises/Exercise 1 directory
+
+commit 72ca3712b438a1f344e9a46d75536a7aa1d619bc
+Author: Modu Michael <68521238+Dev-Mikael@users.noreply.github.com>
+Date:   Mon Sep 5 22:21:21 2022 +0000
+
+    Add files via upload
+
+commit fdd718f8c5416a43727cd4ed84e0c7d60c72e86a
+Author: Modu Michael <68521238+Dev-Mikael@users.noreply.github.com>
+Date:   Mon Sep 5 23:05:22 2022 +0100
+
+    Initial commit
