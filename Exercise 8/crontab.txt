@@ -1,0 +1,1 @@
+0 * * * * bash /home/vagrant/memory_logs/memory_log.sh
