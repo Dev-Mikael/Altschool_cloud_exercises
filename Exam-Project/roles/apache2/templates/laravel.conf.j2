@@ -1,0 +1,23 @@
+<VirtualHost :80>
+
+    ServerAdmin modumichael138@gmail.com
+
+    ServerName michaelmodu.me
+
+    DocumentRoot /var/www/laravel-realworld-example-app/public
+
+    <Directory /var/www/laravel-realworld-example-app>
+
+    Options Indexes MultiViews
+
+    AllowOverride All
+
+    Require all granted
+
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>

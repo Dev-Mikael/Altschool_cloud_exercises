@@ -1,0 +1,8 @@
+mysql_root_password: "Guessit789#"
+mysql_databases:
+  - name: laravel
+mysql_users:
+  - name: ubuntu
+    host: "%"
+    password: Guessit789#
+    priv: "laravel.*:ALL"

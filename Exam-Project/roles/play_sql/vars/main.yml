@@ -1,0 +1,8 @@
+---
+# vars file for mysql
+
+# MySQL Setup
+mysql_root_password: Guessit789#
+mysql_app_db: laravel
+mysql_app_user: ubuntu
+mysql_app_pass: Guessit789#
