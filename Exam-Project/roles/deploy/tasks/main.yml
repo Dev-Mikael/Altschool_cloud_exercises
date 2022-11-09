@@ -13,10 +13,10 @@
 
 - name: Installing Laravel dependencies
   composer:
-    command: install --no-interaction
-    working_dir: "{{ remote_www_root }}/{{ app_root_dir }}"
+    command: install --no-interaction 
+    #working-dir=/var/www/laravel-realworld-example-app
+    chdir: /var/www/laravel-realworld-example-app
   become: false
-  tags: [ 'composer:install' ]
   ignore_errors: yes
 
 - name: Generate app key

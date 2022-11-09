@@ -1,0 +1,21 @@
+- hosts: all 
+  vars_files:
+    - default.yml
+   
+  tasks:
+  - name : Install Python Package
+    apt: name=python3 update_cache=yes state=latest
+    become: yes
+ 
+  - name : Install Let's Encrypt Package
+    apt: name="python3-certbot-apache" update_cache=yes state=latest
+    become: yes 
+
+  - name: Create and Install Cert Using apache2 Plugin
+    command: "certbot --apache -d  michaelmodu.me -d www.michaelmodu.me -m modumichael138@gmail.com --agree-tos --noninteractive --redirect"
+    become: yes
+   
+  - name: Set Letsencrypt Cronjob for Certificate Auto Renewal
+    cron: name=letsencrypt_renewal special_time=monthly job="/usr/bin/certbot renew"
+    when: ansible_facts['os_family'] == "Debian"
+    become: yes
